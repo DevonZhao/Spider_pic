@@ -1,0 +1,69 @@
+安装python环境：
+	sudo apt-get install python-pip
+	sudo pip install virtualenv
+	virtualenv test
+	source test/bin/activate
+	deactivate
+安装git环境：
+
+
+pip install scrapy
+
+mkdir -p ~/meizi
+cd meizi
+scrapy startproject tutorial
+
+sublime text
+官方方式安装installing package
+安装插件：ctrl+shift+P
+SublimeCodeIntel
+SublimeLinter代码检查
+emmet：html,css代码补全
+sidebar：右键open in broswer
+Sublime CodeIntel：代码补全```需要配置环境```
+Alignment：代码对齐
+
+
+
+python调用API接口，
+python爬虫，数据分析
+
+
+json
+
+#!/usr/bin/env python
+# -*- coding=utf-8 -*-
+
+import requests
+import json
+json_string = '{"first_name": "Guido", "last_name":"Rossum"}'
+parsed_json = json.loads(json_string)
+print parsed_json['first_name']
+python数据分析
+	安装Anaconda on macOS： https://docs.continuum.io/anaconda/install
+ipython notebook
+
+
+bi，数据挖掘，机器学习，数据科学家，高级数据架构师，高级数据总监，大数据架构师
+大数据和数据仓库项目，
+
+
+Python爬虫：
+	ETL
+	采集业务所需数据，并做处理（网页信息抽取，即抓取各种网页---数据的清洗---数据的展现---分析）
+	python自动化操作
+	git
+	scrapy、pyspider框架
+	数据写入redis或mongodb
+	分布式爬虫系统
+	数据采集模块的设计（用于有用数据的采集功能）
+	参加一些开源的项目
+	反爬虫机制
+	自动化数据库平台后端开发
+
+
+爬取汽车之家(太平洋汽车网)的汽车信息,价格等
+把爬取到的文章一类的数据放在mongo里
+爬虫爬到的数据写到json文件--写到mysql
+
+
